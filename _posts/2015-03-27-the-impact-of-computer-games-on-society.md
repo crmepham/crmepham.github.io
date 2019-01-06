@@ -1,14 +1,3 @@
----
-ID: 45
-post_title: The impact of computer games on society
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/academia/the-impact-of-computer-games-on-society/
-published: true
-post_date: 2015-03-27 16:39:09
----
 <strong>The following report will outline three concerns and three benefits that wider society feels gaming is having people.</strong>
 <h2>Positive impacts of games on society</h2>
 <h3>Technological advancement &amp; Revenue in I.T companies</h3>
