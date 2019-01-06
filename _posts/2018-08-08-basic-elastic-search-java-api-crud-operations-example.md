@@ -1,7 +1,9 @@
 This guide assumes you have already setup the <a href="https://www.baeldung.com/elasticsearch-java">Elastic Search API</a> with your Java application.
 
 The following examples use a 'Part' entity:
-<pre class="EnlighterJSRAW" data-enlighter-language="java">public class Part
+
+```java
+public class Part
 {
 
     private String elasticSearchId;
@@ -14,9 +16,13 @@ The following examples use a 'Part' entity:
     public String partNumber;
     @SerializedName("PartDescription")
    
-    [...]</pre>
+    [...]
+```
+    
 Indexing a Part document:
-<pre class="EnlighterJSRAW" data-enlighter-language="null">@Override
+
+```java
+@Override
     public void index(@Nonnull final Part part)
     {
         final Client client = elasticClient.getClient();
@@ -27,11 +33,15 @@ Indexing a Part document:
                      .setSource(source, JSON).get();
 
         part.setElasticSearchId(response.getId());
-    }</pre>
+    }
+```
+    
 The above example uses GSON to convert the Part object into JSON, and illustrates how to correctly format dates to be accepted by Elastic Search. The prepareIndex() method takes the name of the index and the name of the document, then the sets the source of the document to the JSON. The response that is return will contain the unique String id of the newly indexed document.
 
 Getting an indexed document:
-<pre class="EnlighterJSRAW" data-enlighter-language="java">@Override
+
+```java
+@Override
     public Part get(@Nonnull final String id)
     {
         GetResponse response = elasticClient.getClient()
@@ -41,21 +51,29 @@ Getting an indexed document:
         final String sourceAsString = response.getSourceAsString();
         Gson gson =  new GsonBuilder().setDateFormat("yyyy-MM-dd").create();
         return gson.fromJson(sourceAsString, Part.class);
-    }</pre>
+    }
+```
+    
 To get the specific document in the above example, we have supplied the Elastic Search id of the document to the prepareGet() and parse the source of the document that is returned in the GetResponse object. Really straight-forward!
 
 Deleting an indexed document:
-<pre class="EnlighterJSRAW" data-enlighter-language="java">@Override
+
+```java
+@Override
     public void delete(@Nonnull final String id)
     {
         elasticClient.getClient()
                      .prepareDelete("indexName", part, id)
                      .get();
-    }</pre>
+    }
+```
+    
 Probably the simplest of all - To delete a document, simply pass in the elastic search id of the document to the prepareDelete() method.
 
 List all documents:
-<pre class="EnlighterJSRAW" data-enlighter-language="java">@Override
+
+```java
+@Override
     public Set&lt;Part&gt; list()
     {
 
@@ -68,11 +86,15 @@ List all documents:
                 .get();
 
         return maybePopulateParts(new HashSet&lt;Part&gt;(), searchResponse);
-    }</pre>
+    }
+```
+    
 Another fairly straight-forward operation - Simply cal the prepareSearch() method with a .setQuery() to match all entries of the given document type. The resulting SearchResponse object will contain the "hits". The hits will contain a source which can be extracted as a String and parsed using a JSON parser such as GSON.
 
 Searching documents:
-<pre class="EnlighterJSRAW" data-enlighter-language="java">private void search(String term, Set&lt;Part&gt; parts)
+
+```java
+private void search(String term, Set&lt;Part&gt; parts)
     {
         SearchResponse searchResponse = elasticClient.getClient()
                 .prepareSearch("indexName")
@@ -104,7 +126,9 @@ Searching documents:
         }
 
         return parts;
-    }</pre>
+    }
+```
+    
 The above example demonstrates how to search for a specific document where the field "PartNumber" starts with the specific search term. This is achieved using the query builder "prefixQuery()" supplying both the field name and the search term to search for. Buy default, when indexing a new document, elastic search will pass the document through an "analyser" which will create "terms" for each of the fields so the can be searched. For example: The value "One-234" will result in 2 terms being created: "one" and "234. Elastic search has split the value by the dash and lowercased the values. For this reason, searching for the field value "One-234" or "one-" would not actually find a document containing a field with the value "One-234". It would find the document if you search for "On" or "23" for example. Note that with the prefixQuery() builder using the the text "34" wouldn't find the document.
 
 There are a large number of built in query builders, and you can also create custom analyser's. Or remove the analysers entirely in the settings.
