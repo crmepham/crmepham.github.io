@@ -1,16 +1,3 @@
----
-ID: 906
-post_title: >
-  How to execute native SQL queries using
-  Hibernate
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/guide/hibernate/how-to-execute-native-sql-queries-using-hibernate/
-published: true
-post_date: 2017-04-17 12:48:12
----
 In some cases, there may be a need for you to write native SQL. Typically you may use a framework such as Spring JDBC for this, but if you already have an ORM framework that allows you to perform native queries, although, in an arguably less trivial way, you might as well use it.
 
 The following example assumes you already have setup Hibernate for your application.
