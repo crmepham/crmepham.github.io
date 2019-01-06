@@ -1,16 +1,3 @@
----
-ID: 879
-post_title: >
-  How to implement custom queries using
-  Spring-data and JPA
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/guide/spring-boot/how-to-implement-custom-queries-using-spring-data-and-jpa/
-published: true
-post_date: 2017-03-28 11:14:10
----
 This tutorial will describe how to implement custom JPA methods for dynamically-driven queries in Spring Boot.
 <h3>Maven package dependencies</h3>
 <pre class="EnlighterJSRAW" data-enlighter-language="xml">&lt;parent&gt;
