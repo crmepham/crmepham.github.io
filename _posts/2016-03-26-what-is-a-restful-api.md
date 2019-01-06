@@ -1,14 +1,3 @@
----
-ID: 721
-post_title: What is a RESTful API?
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/java/what-is-a-restful-api/
-published: true
-post_date: 2016-03-26 11:41:08
----
 <strong>What is an API?</strong>
 An Application Programming Interface (API) is simply a way of exposing the internal functionality of a service in a safe way. This enables clients to be able to make use of a systems functions without the system having to compromise on security or requiring a client to learn the details of a systems implementation. 
 
