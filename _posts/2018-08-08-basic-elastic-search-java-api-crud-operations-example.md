@@ -1,16 +1,3 @@
----
-ID: 1026
-post_title: >
-  Basic Elastic Search Java API CRUD
-  operation example
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/basic-elastic-search-java-api-crud-operations-example/
-published: true
-post_date: 2018-08-08 17:42:30
----
 This guide assumes you have already setup the <a href="https://www.baeldung.com/elasticsearch-java">Elastic Search API</a> with your Java application.
 
 The following examples use a 'Part' entity:
