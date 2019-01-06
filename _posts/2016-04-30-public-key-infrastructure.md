@@ -1,14 +1,3 @@
----
-ID: 804
-post_title: Public Key Infrastructure
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/academia/public-key-infrastructure/
-published: true
-post_date: 2016-04-30 14:29:12
----
 <strong>Why is PKI necessary?</strong>
 The trouble with communication on the internet is that it is very easy for a third party to intercept the data being sent between two people. Even when using encryption it is relatively easy for a third party to pretend to be the person you wish to communicate with, send you their own public key which you use to encrypt your data, which will pair with their own private key for decrypting the data.
 Wouldn't it be better if we could have strong encryption but also reliably know that the public key came from the person we want to communicate with? This is what PKI provides with its digitally signed certificates.
