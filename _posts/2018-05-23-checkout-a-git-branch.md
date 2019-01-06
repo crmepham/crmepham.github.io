@@ -1,14 +1,3 @@
----
-ID: 938
-post_title: Checkout a Git branch
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/checkout-a-git-branch/
-published: true
-post_date: 2018-05-23 14:25:41
----
 If you are using GitFlow you will typically need to create a branch from 'Develop' to do your development work. To create the branch follow these steps:
 <ol>
  	<li>Clone the respository <code class="EnlighterJSRAW" data-enlighter-language="shell">git clone git@bitbucket.org:example/example-repo.git</code></li>
