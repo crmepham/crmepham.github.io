@@ -23,6 +23,7 @@ Domain=.solid.community; Path=/; Expires=Mon, 15 Oct 2018 11:15:54 GMT; HttpOnly
 
 <h2>Sending an authenticated request</h2>
 With the cookie now set you can make authenticated requests. In this example we will update my cards first name property:
+
 ```java
 PATCH /profile/card HTTP/1.1
 Host: crmepham2.solid.community
