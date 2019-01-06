@@ -1,14 +1,3 @@
----
-ID: 265
-post_title: 'What&#8217;s the deal with Fizzbuzz?'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/whats-the-deal-with-fizzbuzz/
-published: true
-post_date: 2015-07-04 22:41:13
----
 <blockquote>Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”</blockquote>
 
 Okay, first I'll refactor the question into a list of constraints:
