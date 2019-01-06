@@ -1,16 +1,3 @@
----
-ID: 788
-post_title: >
-  VPN and VLAN for secure remote
-  networking
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/academia/vpn-and-vlan-for-secure-remote-networking/
-published: true
-post_date: 2016-04-26 10:09:31
----
 <strong>Introduction</strong>
 This report will discuss the use of VPN technologies for secure communication across the internet. It will critically evaluate various VPN solutions and discuss the relevant security implications when adopting a VPN solution to support business goals. It will also describe the use of VLAN for logical segmentation of a private network for improved security.
 
