@@ -1,14 +1,3 @@
----
-ID: 543
-post_title: The many joins of MySQL
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/the-many-joins-of-mysql/
-published: true
-post_date: 2016-01-05 13:04:31
----
 [caption id="attachment_545" align="aligncenter" width="1044"]<a href="http://chrismepham.co.uk/blog/wp-content/uploads/2016/01/joins.png"><img class="size-full wp-image-545" src="http://chrismepham.co.uk/blog/wp-content/uploads/2016/01/joins.png" alt="Mysql joins" width="1044" height="695" /></a> Mysql joins[/caption]
 
 Following the process of normalization - a well designed Relational database will usually have more than one table with related data in it. The reason for normalization is to separate data into tables, representing single entities, to prevent data redundancy. These tables will be linked together using foreign keys. When we want to correlate data from multiple tables we can use the <strong>join </strong>key word to do so. The following is a brief description of three commonly used joins: <strong>left</strong>, <strong>inner </strong>and <strong>right</strong>.
