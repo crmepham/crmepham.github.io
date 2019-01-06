@@ -1,14 +1,3 @@
----
-ID: 932
-post_title: Download and install Sigar
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/download-and-install-sigar/
-published: true
-post_date: 2018-05-17 09:50:28
----
 <a href="https://github.com/hyperic/sigar">Sigar</a> is a Java library that allows you to monitor various aspects of your system. Including Network, Memory, and CPU.
 
 To use Sigar in you Java application follow these steps:
