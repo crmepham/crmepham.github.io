@@ -1,16 +1,3 @@
----
-ID: 93
-post_title: >
-  A comparison of the Managed execution
-  Process in .NET and Java
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/academia/a-comparison-of-the-managed-execution-process-in-net-and-java/
-published: true
-post_date: 2015-05-10 13:48:59
----
 <strong>.NET</strong>
 
 Firstly a programmer will choose a programming language that targets the Common Language Runtime (CLR). The more popular .NET programming languages that can be compiled to Microsoft Intermediate Language (MSIL) are C#, Visual Basic, F# and Visual C++ (which is an Integrated Development Environment that enables C++ to be compiled using the CLR, as opposed to traditional C++ which compiles straight to CPU instructions).
