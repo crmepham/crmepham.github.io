@@ -1,14 +1,3 @@
----
-ID: 403
-post_title: 'Spring: Defining beans and bean scope'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/guide/spring-defining-beans-and-bean-scope/
-published: true
-post_date: 2015-08-23 13:40:22
----
 In this tutorial I will be defining beans in a Spring Bean configuration file. This configuration file will be used to automatically instantiate and inject beans into relevant objects automatically. This tutorial assumes you have a new Spring project environment setup, which you can learn how to do <a href="http://chrismepham.co.uk/blog/guide/how-to-setup-your-eclipse-ide-for-your-first-java-spring-project/">here</a>.
 
 <strong>Creating a bean configuration file.</strong>
