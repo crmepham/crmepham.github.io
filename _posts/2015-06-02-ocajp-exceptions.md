@@ -1,14 +1,3 @@
----
-ID: 165
-post_title: 'OCAJP: Exceptions'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/certification/ocajp-exceptions/
-published: true
-post_date: 2015-06-02 17:01:19
----
 Exceptions are thrown by a program when something goes wrong! It is Java's way of telling you something has happened that it wasn't expecting and it doesn't know how to handle the problem. So it just tells you, usually by printing out a stack trace of the error.
 
 Exceptions fall into two main categories - <strong>checked</strong> exceptions and <strong>unchecked</strong> exceptions.
