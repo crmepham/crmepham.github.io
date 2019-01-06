@@ -1,16 +1,3 @@
----
-ID: 505
-post_title: >
-  Common Java utility methods every
-  programmer should use (Part 1)
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/common-java-utility-methods-every-programmer-should-use-part-1/
-published: true
-post_date: 2015-12-21 17:36:40
----
 This post will be the first in a series of posts describing useful utility methods that will help make any programmers day to day code implementation easier.
 
 The methods in this post:
