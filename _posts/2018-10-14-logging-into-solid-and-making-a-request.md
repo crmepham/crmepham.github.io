@@ -1,3 +1,8 @@
+---
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
+---
 I should preface this post by mentioning that SOLID appears to still be in the early stages of development, and so this post may become out of date quickly. Currently the initial login step actually requires the username and password be sent in clear text.
 
 If you don't know about SOLID please head over to <a href="https://solid.inrupt.com">https://solid.inrupt.com</a> to learn all about it.
