@@ -1,16 +1,3 @@
----
-ID: 698
-post_title: >
-  How to run a background task in Android
-  using AlarmManager and BroadcastReceiver
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/mobile/how-to-run-a-background-task-in-android-using-alarmmanager-and-broadcastreceiver/
-published: true
-post_date: 2016-02-17 20:20:18
----
 In some circumstance it will be necessary for your application to run background tasks whether the app. is open or not. For example: an alarm clock will sound when a certain time has been reached, or updating a users location so other users can see where that user is on a map.
 
 Android provides an excellent framework for managing the registering of a background task which will run specific code at a recurring interval indefinitely, even after the phone has been rebooted.
