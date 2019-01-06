@@ -3,7 +3,9 @@ This post will explain how to configure Spring Boot 2 to access Swagger 2 using 
 Spring Boot 2.0.4.RELEASE
 Swagger 2.9.2
 <h2>Create the REST controller</h2>
-<pre class="EnlighterJSRAW" data-enlighter-language="java">import com.server.common.model.Menu;
+
+```java
+import com.server.common.model.Menu;
 import com.server.dataservice.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -23,9 +25,13 @@ public class MenuController
     public ResponseEntity&lt;List&lt;Menu&gt;&gt; getMenus() {
         return new ResponseEntity&lt;&gt;(menuService.getAll(), HttpStatus.OK);
     }
-}</pre>
+}
+```
+
 <h2>Create the configuration class</h2>
-<pre class="EnlighterJSRAW" data-enlighter-language="null">import org.springframework.beans.factory.annotation.Autowired;
+
+```java
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -55,7 +61,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter
         auth.inMemoryAuthentication().withUser("john123").password("{noop}password").roles("USER");
     }
 
-}</pre>
+}
+```
+
 You could replace the simple in-memory authentication with anything else.
 
 Now, start your Spring Boot 2 application and navigate to http://localhost:9030/swagger-ui.html. The port may differ.
