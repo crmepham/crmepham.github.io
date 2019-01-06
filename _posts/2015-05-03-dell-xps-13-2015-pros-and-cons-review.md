@@ -1,14 +1,3 @@
----
-ID: 3
-post_title: Dell XPS 13 (2015) Pros and Cons review!
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/gadgets/dell-xps-13-2015-pros-and-cons-review/
-published: true
-post_date: 2015-05-03 20:32:37
----
 I've been using this brand new laptop for about a week now and wanted to share a short review of the main "pros" and "cons" that I have discovered so far. So don't expect an in depth review of all aspects of the laptop. There are plenty of great reviews already online. I just wanted to write about the things that have affected me most in the short time I have been using it.
 
 So let's start with the good bit's!
