@@ -1,17 +1,3 @@
----
-ID: 314
-post_title: >
-  How to create a simple, super fast,
-  web-based chat program using Java
-  WebSockets.
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/how-to-create-a-simple-super-fast-web-based-chat-program-using-java-websockets/
-published: true
-post_date: 2015-07-16 16:22:28
----
 [caption id="attachment_317" align="aligncenter" width="1941"]<a href="http://chrismepham.co.uk/blog/wp-content/uploads/2015/07/IMG_20150716_1610531.jpg"><img src="http://chrismepham.co.uk/blog/wp-content/uploads/2015/07/IMG_20150716_1610531.jpg" alt="chat program" width="1941" height="1193" class="size-full wp-image-317" /></a> chat program[/caption]
 
 I have been tinkering with a relatively new HTML5 technology called WebSockets, which allows for super fast text and blob communication. 
