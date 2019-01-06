@@ -1,16 +1,3 @@
----
-ID: 901
-post_title: >
-  Configure a Spring Boot application for
-  HTTPS
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/guide/spring-boot/configure-a-spring-boot-application-for-https/
-published: true
-post_date: 2017-04-02 13:29:42
----
 <h2>Generate a self-signed certificate using Keytool</h2>
 Use the following command to generate a self-signed RSA certificate that can be used during development to test your application under HTTPS.
 <pre class="EnlighterJSRAW" data-enlighter-language="null">keytool -genkey -alias tomcat -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore keystore.p12 -validity 7300</pre>
