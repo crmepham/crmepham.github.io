@@ -1,16 +1,3 @@
----
-ID: 47
-post_title: >
-  How psychological factors are used in
-  the design of computer games
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/academia/how-psychological-factors-are-used-in-the-design-of-computer-games/
-published: true
-post_date: 2015-03-27 16:36:53
----
 In this essay I will explore the benefits and detriments of designing computer games in a way that will target people psychologically. I will provide examples of positive and negative psychological repercussions that can be related to gaming habits, the type of games people play and the effects these games may or may not be having on them and why games developers use psychological factors when designing computer games.
 
 Computer gaming has been around for over thirty years and in that time the technology and methods used to produce computer games has advanced exponentially. Initially games were produced using very basic computer hardware and software that was usually very expensive and so not readily available. Computer gaming was a very new concept and the games were very basic. The graphics, controls and achievements were very rudimentary, although this didn?t make them bad games it just meant players used to engage in them differently than gamers do with today?s games.
