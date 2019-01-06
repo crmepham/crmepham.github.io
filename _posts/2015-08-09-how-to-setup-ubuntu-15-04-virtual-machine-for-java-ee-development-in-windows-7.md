@@ -1,17 +1,3 @@
----
-ID: 369
-post_title: >
-  How to setup Ubuntu 15.04 virtual
-  machine for Java EE development in
-  Windows 7
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/guide/how-to-setup-ubuntu-15-04-virtual-machine-for-java-ee-development-in-windows-7/
-published: true
-post_date: 2015-08-09 12:29:54
----
 The following is a simple, step-by-step guide to setting up your virtual environment for Java EE development. By the end of this guide you should have a stable development platform ready for both LAMP and Java-based development stacks.
 
 <strong>Prerequisites</strong>
