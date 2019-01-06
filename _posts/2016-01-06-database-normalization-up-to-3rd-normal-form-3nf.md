@@ -1,16 +1,3 @@
----
-ID: 27
-post_title: >
-  Database normalization up to 3rd normal
-  form (3NF)
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/database-normalization-up-to-3rd-normal-form-3nf/
-published: true
-post_date: 2016-01-06 10:58:54
----
 In this post I will explain what database normalization is and describe an example of how to develop a relational database schema at 3rd normal form. I recommend reading this post on a large screen.
 <h2>What is a relational database?</h2>
 A well designed relational database will consist of structured tables that are related to one another through the use of foreign keys. Each table maps directly to a real world entity and will consist of columns that correspond to that entities attributes. It will also contain a primary key (one or more columns that uniquely identify a row), and foreign keys to map a row in that table to rows in other tables.
