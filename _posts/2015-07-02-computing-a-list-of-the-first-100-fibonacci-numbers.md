@@ -1,16 +1,3 @@
----
-ID: 250
-post_title: >
-  Computing a list of the first 100
-  Fibonacci numbers
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/computing-a-list-of-the-first-100-fibonacci-numbers/
-published: true
-post_date: 2015-07-02 13:39:46
----
 This was a neat little problem I came across today during my OCA studies and thought it might be worth sharing a solution.
 
 The problem:
