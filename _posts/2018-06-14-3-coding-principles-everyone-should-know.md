@@ -1,16 +1,3 @@
----
-ID: 961
-post_title: >
-  3 Coding principles everyone should
-  know!
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/3-coding-principles-everyone-should-know/
-published: true
-post_date: 2018-06-14 11:47:15
----
 This post will describe 3 of the main principles I use when coding. These principles help me to write clean, readable and manageable code.
 
 <strong>1. Get out quick (Short-circuit methods)</strong>
