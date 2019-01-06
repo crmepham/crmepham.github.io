@@ -1,5 +1,7 @@
 Use a variation of the following code to create a Response to test with:
-<pre class="EnlighterJSRAW" data-enlighter-language="java">private Response createResponse()
+
+```java
+private Response createResponse()
     {
         HttpUrl mHttpUrl = new HttpUrl.Builder()
                 .scheme("https")
@@ -16,5 +18,5 @@ Use a variation of the following code to create a Response to test with:
                 .code(302);
 
         return builder.build();
-    }</pre>
-&nbsp;
+    }
+```
