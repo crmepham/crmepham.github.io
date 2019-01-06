@@ -1,14 +1,3 @@
----
-ID: 85
-post_title: 'OCAJP revision: What is Garbage Collection?'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/certification/ocajp/ocajp-revision-what-is-garbage-collection/
-published: true
-post_date: 2015-05-04 16:29:38
----
 Garbage collection (or a garbage collector) is an automatic memory management program that exists as part of .Net's CLR (Common Language Runtime) and Java's Java Virtual Machine (JVM). It's sole purpose is to optimise a programs memory by deleting unreferenced objects and contiguously compacting the remaining objects to enable quick allocation of memory to newly instantiated objects.
 
 In older programming languages, such as C++, garbage collection had to be done manually by the programmer calling an API when they wanted to remove unreferenced objects. This would have been time consuming and the potential for mistakes large, because the developer had to make sure to include a call to a collector each time an object was going out of scope. Also a programmer may manually delete an object when there are other references to it in the program, causing a pointer error, meaning other references to the object exist elsewhere in the program when the memory, previously allocated to this object, has been reallocated.
