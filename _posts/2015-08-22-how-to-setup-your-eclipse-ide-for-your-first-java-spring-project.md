@@ -1,16 +1,3 @@
----
-ID: 384
-post_title: >
-  How to setup your Eclipse IDE for your
-  first Java Spring project
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/guide/how-to-setup-your-eclipse-ide-for-your-first-java-spring-project/
-published: true
-post_date: 2015-08-22 12:48:39
----
 This tutorial will cover the process of setting up your newly installed Eclipse IDE for Java Spring development. This tutorial assumes you have already downloaded and installed <a href="https://glassfish.java.net/download.html#gfoseTab" target="_blank">Glassfish 4</a> and <a href="https://eclipse.org/downloads/" target="_blank">Eclipse for EE Developers</a>.
 
 <strong>What is Glassfish?</strong>
