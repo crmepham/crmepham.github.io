@@ -1,16 +1,3 @@
----
-ID: 983
-post_title: >
-  Improve your coding style with
-  CheckStyle, FindBugs, PMD and Jacoco.
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/improve-your-coding-style-with-checkstyle-findbugs-pmd-and-cpd/
-published: true
-post_date: 2018-06-17 12:21:15
----
 When you start developing software professionally you will want to ensure that you are writing the best code you can be. Luckily, there are a handful of tools that can help you with. These tools can be configured to automatically check your code style and look for potential bugs in your code, when you build you project.
 
 I have selected a handful of tools which I currently use professionally, and will briefly summarise each of them. Each of them can be used with Mavens reporting framework, to produce easy to view reports.
