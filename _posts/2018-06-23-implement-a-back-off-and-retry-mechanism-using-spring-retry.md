@@ -1,16 +1,3 @@
----
-ID: 1004
-post_title: >
-  Implement a Back-off and Retry mechanism
-  using Spring Retry
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/implement-a-back-off-and-retry-mechanism-using-spring-retry/
-published: true
-post_date: 2018-06-23 12:57:34
----
 It may be necessary, especially when dealing with 3rd party API integrations, to implement a "Back-off and retry" mechanism, in cases where, for example, the 3rd party API becomes non-responsive, or lock's you out.
 
 I recently had an issue where an application I had developed was pinging the AWS API to often. This resulted in AWS throttling the amount that my AWS account could use the API. However, the throttle threshold and the duration that the throttling persists could not be known.
