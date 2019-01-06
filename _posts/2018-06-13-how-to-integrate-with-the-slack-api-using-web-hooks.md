@@ -1,16 +1,3 @@
----
-ID: 947
-post_title: >
-  How to integrate with the Slack API
-  using web-hooks
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/how-to-integrate-with-the-slack-api-using-web-hooks/
-published: true
-post_date: 2018-06-13 10:37:39
----
 Slack has made integration extremely easy! This tutorial will show you how to create a Slack app that will send messages to a specific Slack channel.
 
 <strong>Pre-requisites</strong>
