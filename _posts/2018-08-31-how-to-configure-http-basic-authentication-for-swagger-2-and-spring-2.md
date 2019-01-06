@@ -1,17 +1,3 @@
----
-ID: 1060
-post_title: >
-  How to configure HTTP Basic
-  authentication for Swagger 2 and Spring
-  2
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/how-to-configure-http-basic-authentication-for-swagger-2-and-spring-2/
-published: true
-post_date: 2018-08-31 19:46:36
----
 This post will explain how to configure Spring Boot 2 to access Swagger 2 using HTTP Basic authorization.
 <h2>Requirements</h2>
 Spring Boot 2.0.4.RELEASE
