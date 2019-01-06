@@ -1,14 +1,3 @@
----
-ID: 349
-post_title: 'OCAJP: Lambda Expressions and the Predicate interface'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/certification/ocajp-lambda-expressions-and-the-predicate-interface/
-published: true
-post_date: 2015-07-20 13:55:50
----
 With the release of Java version 8, came the ability to write Lambda expressions, to be used with functional interfaces. Java 8 includes a few functional interfaces, including: Runnable, Callable, Comparator and <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html">java.util.function.Predicate</a>, to name a few. For the OCAJP exam you will only need to know how to write a valid Lambda expression for use with the Predicate interface.
 
 <strong>What is a Lambda expression?</strong>
