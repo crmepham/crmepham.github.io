@@ -1,16 +1,3 @@
----
-ID: 475
-post_title: >
-  How to write JUnit integration and Unit
-  tests and the difference between them
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/how-to-write-junit-integration-and-unit-tests-and-the-difference-between-them/
-published: true
-post_date: 2015-09-12 11:54:19
----
 In this tutorial I will explain what Unit and Integration testing are and the differences between them in JUnit 4. 
 
 Testing is an important aspect of software development. During the development of an application, a lot of changes may occur, over a large period of time, and mistakes can happen regularly. As changes are made to software it is necessary to test the new functionality and make sure that this change hasn't had a negative effect on any existing code in the application.
