@@ -1,14 +1,3 @@
----
-ID: 439
-post_title: 'Spring: How to retrieve data from a MySQL database'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/spring-how-to-retrieve-data-from-a-mysql-database/
-published: true
-post_date: 2015-08-29 14:44:24
----
 In this tutorial I will demonstrate how to retrieve multiple rows of data from a MySQL database using Spring.
 
 Before I start I will setup a standard eclipse Maven project that has the following dependencies:
