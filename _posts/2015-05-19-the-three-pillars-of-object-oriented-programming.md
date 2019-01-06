@@ -1,16 +1,3 @@
----
-ID: 120
-post_title: >
-  The three pillars of Object Oriented
-  Programming
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/the-three-pillars-of-object-oriented-programming/
-published: true
-post_date: 2015-05-19 12:37:18
----
 Object Oriented Programming (OOP) is a model for programming, whereby data and procedures are organised around objects. Where each object represents an entity or "thing" which contains data and procedures that are relevant to itself.
 
 For example: A Cat can be modelled in OOP. A Cat is a thing. It has attributes including: age, name and mood. It also has logical actions such as: jump, eat and sleep.
