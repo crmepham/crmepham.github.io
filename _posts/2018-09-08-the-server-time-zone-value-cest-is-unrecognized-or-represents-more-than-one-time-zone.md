@@ -1,14 +1,3 @@
----
-ID: 1065
-post_title: 'The server time zone value &#8216;CEST&#8217; is unrecognized or represents more than one time zone.'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/the-server-time-zone-value-cest-is-unrecognized-or-represents-more-than-one-time-zone/
-published: true
-post_date: 2018-09-08 18:46:35
----
 This was a particularly challenging issue that I came up against recently. I'm still not entirely sure of the exact cause, other than many people have already suggested that it is a bug with certain versions of the mysql-connector library. Although I did try using many different versions of it and the error didn't go away.
 
 The temporary solution, at least, is to update the timezone values within Mysql. Run the following commands:
