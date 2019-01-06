@@ -1,14 +1,3 @@
----
-ID: 218
-post_title: 'OCAJP: embedded ternary operators with pre and post incremented variables'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/certification/ocajp-revision-embedded-ternary-operators-with-pre-and-post-incremented-variables/
-published: true
-post_date: 2015-07-01 17:57:31
----
 I came across an amusing question whilst studying operators and constructs for an upcoming certification exam I am taking and thought I'd share and explain the process of evaluating the assignment of the output variable. It is one of those frustratingly time consuming questions that once broken down are relatively easy to answer.
 
 <strong>The question: (courtesy of Enthuware)</strong>
