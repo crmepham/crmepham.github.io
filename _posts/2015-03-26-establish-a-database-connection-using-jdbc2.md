@@ -1,16 +1,3 @@
----
-ID: 21
-post_title: >
-  Establish a database connection using
-  JDBC2
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/java/establish-a-database-connection-using-jdbc2/
-published: true
-post_date: 2015-03-26 16:05:06
----
 In Java you can use the Java Database connector (JDBC) API to connect your program with most databases. In this example I will demonstrate how to establish a connection Pool and use a JDBC connection to do some basic CRUD functions with a MySQL database.
 
 To start with you need to download the JDBC driver for your chosen Database. In this case I am using the MySQL driver which can be downloaded <a title="MySQL JDBC driver" href="http://dev.mysql.com/downloads/connector/j/" target="_blank">here</a>.
