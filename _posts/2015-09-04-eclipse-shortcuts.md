@@ -1,14 +1,3 @@
----
-ID: 461
-post_title: Eclipse shortcuts
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/eclipse/eclipse-shortcuts/
-published: true
-post_date: 2015-09-04 18:57:13
----
 Backwards: ALT + <-
 
 Forward: ALT + ->
