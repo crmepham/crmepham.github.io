@@ -1,16 +1,3 @@
----
-ID: 516
-post_title: >
-  Jersey vs. HttpURLConnection for a
-  RESTful Android client
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/jersey-vs-httpurlconnection-for-a-restful-android-client/
-published: true
-post_date: 2015-12-23 20:33:02
----
 Since Google officially <a href="http://developer.android.com/about/versions/marshmallow/android-6.0-changes.html">deprecated the HTTPClient</a> and related methods after Android API 22. I thought it would be interesting to compare their recommended alternative (HttpURLConnection) with my preferred RESTful client; <a href="https://jersey.java.net/">Jersey</a>.
 
 The following example is an implementation of <a href="https://docs.oracle.com/javase/7/docs/api/java/net/HttpURLConnection.html">HttpURLConnection </a>to query a RESTful Webservice to return a String.
