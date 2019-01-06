@@ -1,14 +1,3 @@
----
-ID: 922
-post_title: Migrate SugarCRM data to SalesForce
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/guide/migrate-sugarcrm-data-to-salesforce/
-published: true
-post_date: 2017-06-04 12:29:08
----
 The following post will describe how to migrate all Accounts, Contacts, Tasks and Notes from SugarCRM to SalesForce whilst maintaining their relationships with one another. More specifically; preparing the .csv import files for importing into the <a href="https://appexchange.salesforce.com/listingDetail?listingId=a0N300000016ZoVEAU">Jitterbit </a>data loader.
 <h3>Step 1. Create a custom field against the Account object</h3>
 Name the custom field 'sugarId'. This field is very important and will be used to hold a text value which is the SugarCRM ID for the Account, and will allow the Account to retain its relationship with Contacts, Notes and Tasks.
