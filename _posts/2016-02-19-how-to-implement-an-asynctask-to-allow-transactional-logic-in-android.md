@@ -1,16 +1,3 @@
----
-ID: 709
-post_title: >
-  How to implement an AsyncTask to perform
-  background tasks in Android
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/mobile/how-to-implement-an-asynctask-to-allow-transactional-logic-in-android/
-published: true
-post_date: 2016-02-19 18:18:25
----
 <strong>What is an AsyncTask?</strong>
 AsyncTask is an abstract class that Android provides to do potentially time-consuming tasks that would otherwise hang-up the user interface whilst it waits for the task to finish.
 
