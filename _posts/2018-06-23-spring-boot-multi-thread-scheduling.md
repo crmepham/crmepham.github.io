@@ -1,14 +1,3 @@
----
-ID: 1009
-post_title: Spring Boot multi-thread scheduling
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/spring-boot-multi-thread-scheduling/
-published: true
-post_date: 2018-06-23 13:14:25
----
 Spring Boot provides impressive <a href="https://spring.io/guides/gs/scheduling-tasks/">scheduling</a> functionality out-of-the-box. To install it all you need to do is include the Spring Boot Starter dependency in your Maven project:
 <pre class="EnlighterJSRAW" data-enlighter-language="xml">&lt;dependency&gt;
     &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
