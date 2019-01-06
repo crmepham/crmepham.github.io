@@ -1,16 +1,3 @@
----
-ID: 208
-post_title: >
-  How to compute the sum of a given list
-  using recursion, for and while.
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/how-to-compute-the-sum-of-a-given-list-using-recursion-for-and-while/
-published: true
-post_date: 2015-06-12 08:55:24
----
 I thought this might be a good opportunity to share some of my learning by solving some programming problems I have found online.
 
 <strong>The Problem</strong>
