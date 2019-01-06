@@ -1,14 +1,3 @@
----
-ID: 280
-post_title: 'OCAJP: The rules to method overriding'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/certification/ocajp-the-rules-to-method-overriding/
-published: true
-post_date: 2015-07-12 14:05:26
----
 I will explain many of the rules that must be adhered to when overriding a method in Java, and explain some of the key terms surrounding the process of overriding.
 
 First to explain a couple of things!
