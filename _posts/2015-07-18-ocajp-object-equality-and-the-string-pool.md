@@ -1,14 +1,3 @@
----
-ID: 329
-post_title: 'OCAJP: Object equality and the string pool'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/certification/ocajp-object-equality-and-the-string-pool/
-published: true
-post_date: 2015-07-18 14:24:51
----
 In Java, the <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html">java.lang.Object</a> defines an equals() method for comparing another object to itself to determine if they are the same type of Object. The String class is a subclass of Object (like every other class) and overrides its equals() method to mean something completely different, as I'll explain further down. 
 
 We can use the equals() method and the == operator to compare objects. But what is the difference between them?
