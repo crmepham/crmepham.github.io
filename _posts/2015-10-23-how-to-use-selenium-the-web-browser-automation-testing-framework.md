@@ -1,14 +1,3 @@
----
-ID: 491
-post_title: 'How to use Selenium: the web browser automation framework'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/how-to-use-selenium-the-web-browser-automation-testing-framework/
-published: true
-post_date: 2015-10-23 11:52:03
----
 <a href="http://www.seleniumhq.org/" target="_blank">Selenium</a> is a framework that can be used to automate tasks on a Web front-end. It provides a set of browser specific WebDrivers that integrate well with existing Unit tests, and supports many language-specific bindings to control what happens in the web browser.
 
 The idea behind having an integration testing suite is to gradually build up a set of tests that can be ran every time a new feature or code change is introduced to a product. These tests are run to ensure robustness in a system; by making sure existing functionality is not broken when new features are introduced. 
