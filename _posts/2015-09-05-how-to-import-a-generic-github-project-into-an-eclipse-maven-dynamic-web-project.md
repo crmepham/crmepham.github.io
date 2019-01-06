@@ -1,16 +1,3 @@
----
-ID: 464
-post_title: >
-  How to import a generic Github project
-  as an Eclipse/Maven Dynamic Web project
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/eclipse/how-to-import-a-generic-github-project-into-an-eclipse-maven-dynamic-web-project/
-published: true
-post_date: 2015-09-05 12:19:37
----
 In this tutorial I will describe the steps necessary to successfully import a generic web project from Github into a Dynamic Web Maven Project in Eclipse.
 
 The problem:
