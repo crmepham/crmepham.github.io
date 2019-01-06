@@ -4,8 +4,6 @@ post_title: Logging into SOLID and making a request.
 author: crm
 post_excerpt: ""
 layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/logging-into-solid-and-making-a-request/
 published: true
 post_date: 2018-10-14 11:57:19
 ---
