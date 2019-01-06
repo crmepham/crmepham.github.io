@@ -1,14 +1,3 @@
----
-ID: 942
-post_title: Branch from another Git branch
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/branch-from-another-git-branch/
-published: true
-post_date: 2018-05-25 08:27:58
----
 This will be needed when you want to start a development branch where the code is based on code that was committed in another branch and not the 'Develop' branch.
 
 <em>Aside: If you already created the new branch incorrectly you can delete it using</em> <code class="EnlighterJSRAW" data-enlighter-language="shell">git branch -D feature/name-of-branch</code>
