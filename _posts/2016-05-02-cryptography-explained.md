@@ -1,14 +1,3 @@
----
-ID: 820
-post_title: Cryptography explained!
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/uncategorized/cryptography-explained/
-published: true
-post_date: 2016-05-02 13:30:45
----
 Cryptography (encryption) is the process of protecting information by transforming it into an unreadable format, called cipher text. This will usually be done using cryptographic key systems to encrypt and decrypt cipher text.
 
 These systems include the Diffie-Hellman key exchange, as well as Advanced Encryption Standard (AES) and the Data Encryption Standard (DES) for Symmetric encryption, and <strong>RSA</strong> for Asymmetric encryption.
