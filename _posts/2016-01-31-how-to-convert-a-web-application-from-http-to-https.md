@@ -1,16 +1,3 @@
----
-ID: 647
-post_title: >
-  How to convert a web application from
-  HTTP to HTTPS
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/guide/how-to-convert-a-web-application-from-http-to-https/
-published: true
-post_date: 2016-01-31 12:01:23
----
 <h2>Introduction</h2>
 I will describe how to convert a web application using the HTTP protocol to HTTPS. I will explain what the protocols and relevant technologies are and how they are implemented, and the difference between a self-signed SSL certificate and one signed by a Certificate Authority(CA).
 
