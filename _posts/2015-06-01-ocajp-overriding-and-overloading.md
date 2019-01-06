@@ -1,14 +1,3 @@
----
-ID: 167
-post_title: 'OCAJP: Overriding and Overloading'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/certification/ocajp-overriding-and-overloading/
-published: true
-post_date: 2015-06-01 18:21:08
----
 Java enables developers to both <strong>override</strong> and <strong>overload</strong> methods in sub-classes. I will briefly describe the differences between the two and the process of method hiding when overriding a static method.
 <h2><strong>Overriding</strong></h2>
 Overriding is useful when you want to change the body of a method that is inherited from a super-class. Take the following example:
