@@ -1,14 +1,3 @@
----
-ID: 49
-post_title: Artificial intelligence in gaming
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/academia/artificial-intelligence-in-gaming/
-published: true
-post_date: 2015-03-27 16:33:02
----
 <strong>This article will explore the concept of artificial intelligence; how and why it’s used and the AI tools used within in a games development process.</strong>
 <h3><strong>What is Artificial Intelligence?</strong></h3>
 Artificial Intelligence (AI) is used in computer games to make the non-player characters (NPC) appear real to the person playing the game. The difference between other systems and computer games is that in a lot of cases the illusion of intelligence within an NPC is all that is necessary for the player to feel engaged when interacting with the NPC.
