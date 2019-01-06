@@ -1,14 +1,3 @@
----
-ID: 297
-post_title: 'OCAJP: When to use an abstract class or interface'
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/certification/ocajp-when-to-use-an-abstract-class-or-interface/
-published: true
-post_date: 2015-07-13 15:42:26
----
 The Java programming language provides both abstract classes and interfaces that, to a newcomer, appear to provide very similar functionality to a class, but they should be implemented for different reasons. 
 
 An interface should be seen as a contract. Any class that implements that interface is promising to implement the declared methods, those methods must be public and any declared variables are final and cannot be changed (Since Java SE 8 Oracle has realized that C++ was correct - that multiple inheritance has valid uses and thus allows interfaces to now provide a default body to a method, which helps with backwards compatibility, whereby a method can be added to an existing interface without legacy code having to be altered to implement the new method declaration, provided the method is marked as static or default).
