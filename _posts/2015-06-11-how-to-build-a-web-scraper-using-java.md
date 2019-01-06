@@ -1,14 +1,3 @@
----
-ID: 191
-post_title: How to build a web scraper using Java
-author: crm
-post_excerpt: ""
-layout: post
-permalink: >
-  http://chrismepham.co.uk/blog/programming/how-to-build-a-web-scraper-using-java/
-published: true
-post_date: 2015-06-11 10:58:14
----
 <strong>What is a web scraper?</strong>
 
 Web scraping is a term used to describe the various methods for automating the process of retrieving large amounts of data from websites that don't provide a service (usually an API) for allowing a user to store data from a website locally.
