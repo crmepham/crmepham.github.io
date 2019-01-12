@@ -1,3 +1,7 @@
+---
+classes: wide
+tags: [okhttp3, http]
+---
 Use a variation of the following code to create a Response to test with:
 
 ```java
