@@ -1,3 +1,7 @@
+---
+classes: wide
+tags: [git]
+---
 To rename the last commit message simply use the following Git command:
 
 <code class="EnlighterJSRAW" data-enlighter-language="shell">git --amend -m"The new commit message."</code>
