@@ -1,3 +1,7 @@
+---
+classes: wide
+tags: [elasticsearch, java, spring]
+---
 This guide assumes you have already setup the <a href="https://www.baeldung.com/elasticsearch-java">Elastic Search API</a> with your Java application.
 
 The following examples use a 'Part' entity:
