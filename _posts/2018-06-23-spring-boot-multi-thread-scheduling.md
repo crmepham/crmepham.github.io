@@ -1,3 +1,7 @@
+---
+classes: wide
+tags: [spring, scheduling]
+---
 Spring Boot provides impressive <a href="https://spring.io/guides/gs/scheduling-tasks/">scheduling</a> functionality out-of-the-box. To install it all you need to do is include the Spring Boot Starter dependency in your Maven project:
 
 ```xml
