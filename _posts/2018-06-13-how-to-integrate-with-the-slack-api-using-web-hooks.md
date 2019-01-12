@@ -1,3 +1,7 @@
+---
+classes: wide
+tags: [slack, api, integration]
+---
 Slack has made integration extremely easy! This tutorial will show you how to create a Slack app that will send messages to a specific Slack channel.
 
 <strong>Pre-requisites</strong>
