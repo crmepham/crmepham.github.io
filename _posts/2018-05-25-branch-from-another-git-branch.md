@@ -1,3 +1,7 @@
+---
+classes: wide
+tags: [git]
+---
 This will be needed when you want to start a development branch where the code is based on code that was committed in another branch and not the 'Develop' branch.
 
 <em>Aside: If you already created the new branch incorrectly you can delete it using</em> <code class="EnlighterJSRAW" data-enlighter-language="shell">git branch -D feature/name-of-branch</code>
