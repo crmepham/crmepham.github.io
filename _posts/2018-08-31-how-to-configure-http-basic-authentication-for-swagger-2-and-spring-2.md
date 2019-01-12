@@ -1,3 +1,7 @@
+---
+classes: wide
+tags: [java, swagger, spring, authentication]
+---
 This post will explain how to configure Spring Boot 2 to access Swagger 2 using HTTP Basic authorization.
 <h2>Requirements</h2>
 Spring Boot 2.0.4.RELEASE
