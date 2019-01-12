@@ -1,3 +1,7 @@
+---
+classes: wide
+tags: [cryptography]
+---
 Cryptography (encryption) is the process of protecting information by transforming it into an unreadable format, called cipher text. This will usually be done using cryptographic key systems to encrypt and decrypt cipher text.
 
 These systems include the Diffie-Hellman key exchange, as well as Advanced Encryption Standard (AES) and the Data Encryption Standard (DES) for Symmetric encryption, and <strong>RSA</strong> for Asymmetric encryption.
