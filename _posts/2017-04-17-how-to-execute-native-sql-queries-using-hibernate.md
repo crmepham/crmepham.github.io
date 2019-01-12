@@ -1,3 +1,7 @@
+---
+classes: wide
+tags: [spring, hibernate]
+---
 In some cases, there may be a need for you to write native SQL. Typically you may use a framework such as Spring JDBC for this, but if you already have an ORM framework that allows you to perform native queries, although, in an arguably less trivial way, you might as well use it.
 
 The following example assumes you already have setup Hibernate for your application.
