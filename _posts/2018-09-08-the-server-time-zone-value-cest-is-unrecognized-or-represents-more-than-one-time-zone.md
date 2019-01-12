@@ -1,3 +1,7 @@
+---
+classes: wide
+tags: [mysql]
+---
 This was a particularly challenging issue that I came up against recently. I'm still not entirely sure of the exact cause, other than many people have already suggested that it is a bug with certain versions of the mysql-connector library. Although I did try using many different versions of it and the error didn't go away.
 
 The temporary solution, at least, is to update the timezone values within Mysql. Run the following commands:
