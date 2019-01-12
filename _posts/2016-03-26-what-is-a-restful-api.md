@@ -1,3 +1,7 @@
+---
+classes: wide
+tags: [api, rest, integration]
+---
 <strong>What is an API?</strong>
 An Application Programming Interface (API) is simply a way of exposing the internal functionality of a service in a safe way. This enables clients to be able to make use of a systems functions without the system having to compromise on security or requiring a client to learn the details of a systems implementation. 
 
