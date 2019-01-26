@@ -3,7 +3,7 @@ classes: wide
 tags: [solid certbot ssl certificate]
 ---
 
-This one was a long time coming, but I finally got around to checking out [Certbot](https://certbot.eff.org/lets-encrypt/ubuntuxenial-apache) via [LetsEncrypt](https://letsencrypt.org/). This guide will demonstrate how to quickly and easily setups signed SSL certificates for multiple web services that use reverse proxy behind an Apache server, running on Ubuntu 16.04.
+This one was a long time coming, but I finally got around to checking out [Certbot](https://certbot.eff.org/lets-encrypt/ubuntuxenial-apache) via [LetsEncrypt](https://letsencrypt.org/). This guide will demonstrate how to quickly and easily setup signed SSL certificates for multiple web services that use reverse proxy behind an Apache server, running on Ubuntu 16.04.
 
 ## The setup
 The first step if to create the Apache virtual host entries for both web services. Setting up the virtual hosts is necessary so that CertBot can pick them up later on.
