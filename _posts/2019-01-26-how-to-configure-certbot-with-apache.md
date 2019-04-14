@@ -8,6 +8,17 @@ This one was a long time coming, but I finally got around to checking out [Certb
 ## The setup
 The first step if to create the Apache virtual host entries for both web services. Setting up the virtual hosts is necessary so that CertBot can pick them up later on.
 
+## Pre-requisites
+Ensure you have enabled the following Apache2 modules:
+```
+sudo a2enmod rewrite
+sudo a2enmod lbmethod_byrequests
+sudo a2enmod proxy_balancer
+sudo a2enmod proxy_http
+sudo a2enmod proxy
+sudo systemctl reload apache2
+```
+
 ### Webservice 1
 ```bash
 <VirtualHost *:*>
