@@ -1,7 +1,7 @@
 ---
 
 classes: wide
-tags: [web internet secure security private privacy self hosted hosting vpn tunnel]
+tags: [web, internet, secure, security, private, privacy, self-hosted, hosting, vpn, tunnel]
 
 ---
 
