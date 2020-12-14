@@ -22,18 +22,17 @@ There are numerous paid-for VPN services available, but we cannot be sure that t
 [OpenVPN](https://openvpn.net/) solves this issue by allowing you to host your own VPN server.
 
 ## TL;DR
-- Setup your own web-server and install your own [OpenVPN](https://openvpn.net/) server. Always be connected to this VPN when using the internet.
-- Setup your own email server using [iRedMail](https://www.iredmail.org/).
-- Use [DuckDuckGo](https://duckduckgo.com/) for searching the web. It doesn't "personalise" the search results based on your usage history, and doesn't track your usage.
-- Setup your own [Bitwarden](https://bitwarden.com/download/) server for storing all of your passwords, credit cards, and notes. Also install a browser addon for Bitwarden to populate login information easily. Here's the [addon](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) for Firefox.
-- Setup your own file server, [harden it](https://is.gd/S2rtf4), and enable [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol) so that you can easily transfer files to it for backup purposes.
-- Use the following browser extensions/addons:
-
- - [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/)
- - [Cookie Autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
- - [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
- - [Firefox Multi-account containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
- - [HTTPS everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
- - [Privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
- - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+* Setup your own web-server and install your own [OpenVPN](https://openvpn.net/) server. Always be connected to this VPN when using the internet.
+* Setup your own email server using [iRedMail](https://www.iredmail.org/).
+* Use [DuckDuckGo](https://duckduckgo.com/) for searching the web. It doesn't "personalise" the search results based on your usage history, and doesn't track your usage.
+* Setup your own [Bitwarden](https://bitwarden.com/download/) server for storing all of your passwords, credit cards, and notes. Also install a browser addon for Bitwarden to populate login information easily. Here's the [addon](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) for Firefox.
+* Setup your own file server, [harden it](https://is.gd/S2rtf4), and enable [SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol) so that you can easily transfer files to it for backup purposes.
+* Use the following browser extensions/addons:
+  * [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/)
+  * [Cookie Autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
+  * [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+  * [Firefox Multi-account containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
+  * [HTTPS everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
+  * [Privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
+  * [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
